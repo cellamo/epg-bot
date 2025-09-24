@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv generator-info-name="epg-bot" source-info-name="beinsports.com.tr">
+  <channel id="beinsports.tr">
+    <display-name>beIN SPORTS</display-name>
+  </channel>
+  <channel id="beinsports-2.tr">
+    <display-name>beIN SPORTS 2</display-name>
+  </channel>
+  <channel id="beinsports-3.tr">
+    <display-name>beIN SPORTS 3</display-name>
+  </channel>
+  <channel id="beinsports-4.tr">
+    <display-name>beIN SPORTS 4</display-name>
+  </channel>
+  <channel id="bein-sports-haber.tr">
+    <display-name>beIN SPORTS HABER</display-name>
+  </channel>
+  <programme start="20250925060000 +0300" stop="20250925074500 +0300" channel="beinsports-4.tr">
+    <title lang="tr">Amiens - Saint-Etienne</title>
+  </programme>
+  <programme start="20250925073000 +0300" stop="20250925080000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Ligue 1 Maç Özetleri</title>
+  </programme>
+  <programme start="20250925074500 +0300" stop="20250925080000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">1 Yıldız 10 Gol</title>
+  </programme>
+  <programme start="20250925074500 +0300" stop="20250925080000 +0300" channel="beinsports-3.tr">
+    <title lang="tr">Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925074500 +0300" stop="20250925080000 +0300" channel="beinsports-4.tr">
+    <title lang="tr">Ligue 2 Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925080000 +0300" stop="20250925094500 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Erokspor - İstanbulspor</title>
+  </programme>
+  <programme start="20250925080000 +0300" stop="20250925094500 +0300" channel="beinsports-3.tr">
+    <title lang="tr">Sunderland - Aston Villa</title>
+  </programme>
+  <programme start="20250925080000 +0300" stop="20250925094500 +0300" channel="beinsports-4.tr">
+    <title lang="tr">Olympique de Marseille - PSG</title>
+  </programme>
+  <programme start="20250925080000 +0300" stop="20250925090000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Premier League Maç Özetleri</title>
+  </programme>
+  <programme start="20250925090000 +0300" stop="20250925093000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Haber</title>
+  </programme>
+  <programme start="20250925093000 +0300" stop="20250925100000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Trendyol 1. Lig Maç Özetleri</title>
+  </programme>
+  <programme start="20250925094500 +0300" stop="20250925100000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">1 Yıldız 10 Gol</title>
+  </programme>
+  <programme start="20250925094500 +0300" stop="20250925100000 +0300" channel="beinsports-3.tr">
+    <title lang="tr">Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925094500 +0300" stop="20250925100000 +0300" channel="beinsports-4.tr">
+    <title lang="tr">Ligue 1 Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925100000 +0300" stop="20250925114500 +0300" channel="beinsports.tr">
+    <title lang="tr">Galatasaray - Konyaspor</title>
+  </programme>
+  <programme start="20250925100000 +0300" stop="20250925114500 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Bandırmaspor - Manisa FK</title>
+  </programme>
+  <programme start="20250925100000 +0300" stop="20250925114500 +0300" channel="beinsports-3.tr">
+    <title lang="tr">Bournemouth - Newcastle U.</title>
+  </programme>
+  <programme start="20250925100000 +0300" stop="20250925114500 +0300" channel="beinsports-4.tr">
+    <title lang="tr">Olympique Lyon - Angers</title>
+  </programme>
+  <programme start="20250925100000 +0300" stop="20250925120000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">beIN Sabah</title>
+  </programme>
+  <programme start="20250925114500 +0300" stop="20250925120000 +0300" channel="beinsports.tr">
+    <title lang="tr">Süper Lig Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925114500 +0300" stop="20250925120000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">1 Yıldız 10 Gol</title>
+  </programme>
+  <programme start="20250925114500 +0300" stop="20250925120000 +0300" channel="beinsports-3.tr">
+    <title lang="tr">Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925114500 +0300" stop="20250925120000 +0300" channel="beinsports-4.tr">
+    <title lang="tr">Ligue 1 Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925120000 +0300" stop="20250925131500 +0300" channel="beinsports.tr">
+    <title lang="tr">beIN Süper Lig</title>
+  </programme>
+  <programme start="20250925120000 +0300" stop="20250925134500 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Erzurumspor FK - Keçiörengücü</title>
+  </programme>
+  <programme start="20250925120000 +0300" stop="20250925140000 +0300" channel="beinsports-3.tr">
+    <title lang="tr">Arsenal - Manchester City</title>
+  </programme>
+  <programme start="20250925120000 +0300" stop="20250925134500 +0300" channel="beinsports-4.tr">
+    <title lang="tr">Nantes - Rennes</title>
+  </programme>
+  <programme start="20250925120000 +0300" stop="20250925121500 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Özel Röportaj</title>
+  </programme>
+  <programme start="20250925121500 +0300" stop="20250925123000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Özel Röportaj</title>
+  </programme>
+  <programme start="20250925123000 +0300" stop="20250925124500 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Chasing the Dream</title>
+  </programme>
+  <programme start="20250925124500 +0300" stop="20250925130000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Süper Lig Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925130000 +0300" stop="20250925143000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Gün Ortası</title>
+  </programme>
+  <programme start="20250925131500 +0300" stop="20250925141500 +0300" channel="beinsports.tr">
+    <title lang="tr">Trio</title>
+  </programme>
+  <programme start="20250925134500 +0300" stop="20250925140000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Süper Lig Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925134500 +0300" stop="20250925140000 +0300" channel="beinsports-4.tr">
+    <title lang="tr">Ligue 1 Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925140000 +0300" stop="20250925154500 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Bodrum FK - Van Spor FK</title>
+  </programme>
+  <programme start="20250925140000 +0300" stop="20250925154500 +0300" channel="beinsports-3.tr">
+    <title lang="tr">Liverpool - Everton</title>
+  </programme>
+  <programme start="20250925140000 +0300" stop="20250925154500 +0300" channel="beinsports-4.tr">
+    <title lang="tr">Brest - Nice</title>
+  </programme>
+  <programme start="20250925141500 +0300" stop="20250925144500 +0300" channel="beinsports.tr">
+    <title lang="tr">Alanyaspor - Galatasaray</title>
+  </programme>
+  <programme start="20250925143000 +0300" stop="20250925144500 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925144500 +0300" stop="20250925151500 +0300" channel="beinsports.tr">
+    <title lang="tr">Fenerbahçe - Antalyaspor</title>
+  </programme>
+  <programme start="20250925144500 +0300" stop="20250925150000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Ligue 1 Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925150000 +0300" stop="20250925153000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">This is Paris</title>
+  </programme>
+  <programme start="20250925151500 +0300" stop="20250925153000 +0300" channel="beinsports.tr">
+    <title lang="tr">Karagümrük - Trabzonspor</title>
+  </programme>
+  <programme start="20250925153000 +0300" stop="20250925154500 +0300" channel="beinsports.tr">
+    <title lang="tr">Rizespor - Kasımpaşa</title>
+  </programme>
+  <programme start="20250925153000 +0300" stop="20250925160000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Ligue 1 Show</title>
+  </programme>
+  <programme start="20250925154500 +0300" stop="20250925160000 +0300" channel="beinsports.tr">
+    <title lang="tr">Kayserispor - Gençlerbirliği</title>
+  </programme>
+  <programme start="20250925154500 +0300" stop="20250925160000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Süper Lig Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925154500 +0300" stop="20250925160000 +0300" channel="beinsports-3.tr">
+    <title lang="tr">Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925154500 +0300" stop="20250925160000 +0300" channel="beinsports-4.tr">
+    <title lang="tr">Ligue 1 Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925160000 +0300" stop="20250925174500 +0300" channel="beinsports.tr">
+    <title lang="tr">Kayserispor - Beşiktaş</title>
+  </programme>
+  <programme start="20250925160000 +0300" stop="20250925164000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Trendyol 1. Lig Maç Özetleri</title>
+  </programme>
+  <programme start="20250925160000 +0300" stop="20250925174500 +0300" channel="beinsports-3.tr">
+    <title lang="tr">Brighton H. A. - Tottenham H.</title>
+  </programme>
+  <programme start="20250925160000 +0300" stop="20250925174500 +0300" channel="beinsports-4.tr">
+    <title lang="tr">Lens - Lille</title>
+  </programme>
+  <programme start="20250925160000 +0300" stop="20250925163000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Haber</title>
+  </programme>
+  <programme start="20250925163000 +0300" stop="20250925173000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Süper Lig Maç Özetleri</title>
+  </programme>
+  <programme start="20250925164000 +0300" stop="20250925170000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Maç Önü</title>
+  </programme>
+  <programme start="20250925170000 +0300" stop="20250925190000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Sivasspor - Adana Demirspor</title>
+  </programme>
+  <programme start="20250925173000 +0300" stop="20250925180000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Trendyol 1. Lig Maç Özetleri</title>
+  </programme>
+  <programme start="20250925174500 +0300" stop="20250925180000 +0300" channel="beinsports.tr">
+    <title lang="tr">Süper Lig'in Gol Kralları</title>
+  </programme>
+  <programme start="20250925174500 +0300" stop="20250925180000 +0300" channel="beinsports-3.tr">
+    <title lang="tr">Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925174500 +0300" stop="20250925180000 +0300" channel="beinsports-4.tr">
+    <title lang="tr">Ligue 1 Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925180000 +0300" stop="20250925190000 +0300" channel="beinsports.tr">
+    <title lang="tr">Süper Lig Maç Özetleri</title>
+  </programme>
+  <programme start="20250925180000 +0300" stop="20250925194500 +0300" channel="beinsports-3.tr">
+    <title lang="tr">West Ham U.- Crystal Palace</title>
+  </programme>
+  <programme start="20250925180000 +0300" stop="20250925194500 +0300" channel="beinsports-4.tr">
+    <title lang="tr">Paris FC - Strasbourg</title>
+  </programme>
+  <programme start="20250925180000 +0300" stop="20250925190000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Ana Haber</title>
+  </programme>
+  <programme start="20250925190000 +0300" stop="20250925200000 +0300" channel="beinsports.tr">
+    <title lang="tr">Gamer</title>
+  </programme>
+  <programme start="20250925190000 +0300" stop="20250925193000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Maç Sonu</title>
+  </programme>
+  <programme start="20250925190000 +0300" stop="20250925191500 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Özel Röportaj</title>
+  </programme>
+  <programme start="20250925191500 +0300" stop="20250925193000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Özel Röportaj</title>
+  </programme>
+  <programme start="20250925193000 +0300" stop="20250925194000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Tanıtım - Klip</title>
+  </programme>
+  <programme start="20250925193000 +0300" stop="20250925200000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">GWA Wingfoil World Tour</title>
+  </programme>
+  <programme start="20250925194000 +0300" stop="20250925200000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Maç Önü</title>
+  </programme>
+  <programme start="20250925194500 +0300" stop="20250925200000 +0300" channel="beinsports-3.tr">
+    <title lang="tr">Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925194500 +0300" stop="20250925200000 +0300" channel="beinsports-4.tr">
+    <title lang="tr">Ligue 1 Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925200000 +0300" stop="20250925210000 +0300" channel="beinsports.tr">
+    <title lang="tr">Taraftar</title>
+  </programme>
+  <programme start="20250925200000 +0300" stop="20250925220000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Amedspor - Sarıyer</title>
+  </programme>
+  <programme start="20250925200000 +0300" stop="20250925214500 +0300" channel="beinsports-3.tr">
+    <title lang="tr">W. Wanderers - Leeds United</title>
+  </programme>
+  <programme start="20250925200000 +0300" stop="20250925214500 +0300" channel="beinsports-4.tr">
+    <title lang="tr">Monaco - Metz</title>
+  </programme>
+  <programme start="20250925200000 +0300" stop="20250925203000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Haber</title>
+  </programme>
+  <programme start="20250925203000 +0300" stop="20250925210000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Ligue 1 Preview</title>
+  </programme>
+  <programme start="20250925210000 +0300" stop="20250925220000 +0300" channel="beinsports.tr">
+    <title lang="tr">beIN Garaj</title>
+  </programme>
+  <programme start="20250925210000 +0300" stop="20250925211500 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Keşfet</title>
+  </programme>
+  <programme start="20250925211500 +0300" stop="20250925220000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Ligue 1 Maç Özetleri</title>
+  </programme>
+  <programme start="20250925214500 +0300" stop="20250925220000 +0300" channel="beinsports-3.tr">
+    <title lang="tr">Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925214500 +0300" stop="20250925220000 +0300" channel="beinsports-4.tr">
+    <title lang="tr">Ligue 1 Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925220000 +0300" stop="20250925223000 +0300" channel="beinsports.tr">
+    <title lang="tr">Alanyaspor - Galatasaray</title>
+  </programme>
+  <programme start="20250925220000 +0300" stop="20250925223000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Maç Sonu</title>
+  </programme>
+  <programme start="20250925220000 +0300" stop="20250925234500 +0300" channel="beinsports-3.tr">
+    <title lang="tr">Burnley - Nottingham Forest</title>
+  </programme>
+  <programme start="20250925220000 +0300" stop="20250925234500 +0300" channel="beinsports-4.tr">
+    <title lang="tr">Auxerre - Toulouse</title>
+  </programme>
+  <programme start="20250925220000 +0300" stop="20250925230000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Premier League Maç Özetleri</title>
+  </programme>
+  <programme start="20250925223000 +0300" stop="20250925230000 +0300" channel="beinsports.tr">
+    <title lang="tr">Fenerbahçe - Antalyaspor</title>
+  </programme>
+  <programme start="20250925223000 +0300" stop="20250925230000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Trendyol 1. Lig Maç Özetleri</title>
+  </programme>
+  <programme start="20250925230000 +0300" stop="20250925231500 +0300" channel="beinsports.tr">
+    <title lang="tr">Karagümrük - Trabzonspor</title>
+  </programme>
+  <programme start="20250925230000 +0300" stop="20250926000000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Süper Lig Maç Özetleri</title>
+  </programme>
+  <programme start="20250925230000 +0300" stop="20250925231500 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Keşfet</title>
+  </programme>
+  <programme start="20250925231500 +0300" stop="20250925234500 +0300" channel="beinsports.tr">
+    <title lang="tr">Konyaspor - Başakşehir FK</title>
+  </programme>
+  <programme start="20250925231500 +0300" stop="20250925233000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Süper Lig Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925233000 +0300" stop="20250926003000 +0300" channel="bein-sports-haber.tr">
+    <title lang="tr">Spor Gecesi</title>
+  </programme>
+  <programme start="20250925234500 +0300" stop="20250926004500 +0300" channel="beinsports.tr">
+    <title lang="tr">Gaziantep FK - Samsunspor</title>
+  </programme>
+  <programme start="20250925234500 +0300" stop="20250926004500 +0300" channel="beinsports-3.tr">
+    <title lang="tr">Haftanın Golleri</title>
+  </programme>
+  <programme start="20250925234500 +0300" stop="20250926004500 +0300" channel="beinsports-4.tr">
+    <title lang="tr">Ligue 1 Haftanın Golleri</title>
+  </programme>
+</tv>
