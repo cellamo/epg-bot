@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 from __future__ import annotations
 
 import argparse
@@ -53,7 +53,7 @@ MONTHS_TR = {
 }
 
 NAME_OVERRIDES = {
-    "beinsports": "beIN SPORTS",
+    "beinsports": "beinsports1",
     "beinsports-2": "beIN SPORTS 2",
     "beinsports-3": "beIN SPORTS 3",
     "beinsports-4": "beIN SPORTS 4",
@@ -69,6 +69,7 @@ class Channel:
     channel_id: str
     display_name: str
     slug: str
+    aliases: List[str]
 
 
 @dataclass
@@ -77,6 +78,157 @@ class Programme:
     title: str
     start: datetime
     stop: datetime
+
+
+UNDOTTED_TRANSLATION = str.maketrans({'i': '\u0131', '\u0130': 'I'})
+PREFIX_VARIANTS = ['', 'TR: ', 'TR:', 'TR : ']
+SUFFIX_VARIANTS = ['HD', 'SD', 'FHD', 'UHD', '4K']
+
+
+def _candidate_forms(name: str) -> list[str]:
+    normalized = re.sub(r"\s+", " ", name).strip() if name else ""
+    if not normalized:
+        return []
+
+    forms: list[str] = []
+
+    def push(value: str) -> None:
+        if value and value not in forms:
+            forms.append(value)
+
+    push(normalized)
+    push(normalized.lower())
+    push(normalized.upper())
+    push(normalized.title())
+    tokens = normalized.split(' ')
+    camel = ''.join(token.capitalize() for token in tokens)
+    push(camel)
+    push(camel.lower())
+    compact = ''.join(tokens)
+    push(compact)
+    push(compact.lower())
+    if '-' in normalized:
+        push(normalized.replace('-', ' '))
+        push(normalized.replace('-', ''))
+    if ':' in normalized:
+        push(normalized.replace(': ', ':'))
+        push(normalized.replace(' :', ':'))
+    if 'bein' in normalized.lower():
+        for replacement in ['Bein', 'BeIN', 'beIN', 'BEIN', 'BeIn']:
+            push(re.sub(r'bein', replacement, normalized, flags=re.I))
+    return forms
+
+
+
+def _add_variant(name: str, seen: set[str], collection: list[str]) -> None:
+    """Add name (with common case/spacing permutations) and undotted alternative if unseen."""
+    for candidate in _candidate_forms(name):
+        if candidate in seen:
+            continue
+        seen.add(candidate)
+        collection.append(candidate)
+        alt = candidate.translate(UNDOTTED_TRANSLATION)
+        if alt != candidate and alt not in seen:
+            seen.add(alt)
+            collection.append(alt)
+
+
+def _collect_base_names(channel: Channel) -> list[str]:
+    bases: list[str] = []
+
+    def push(value: str) -> None:
+        candidate = re.sub(r"\s+", " ", value).strip() if value else ""
+        if candidate and candidate not in bases:
+            bases.append(candidate)
+
+    slug_tokens = [token for token in re.split(r"[-_]", channel.slug) if token]
+    token_variants: list[list[str]] = []
+    if slug_tokens:
+        token_variants.append(slug_tokens)
+        expanded: list[str] = []
+        for token in slug_tokens:
+            if token == "beinsports":
+                expanded.extend(["bein", "sports"])
+            else:
+                expanded.append(token)
+        if expanded and expanded != slug_tokens:
+            token_variants.append(expanded)
+
+    for tokens in token_variants:
+        if not tokens:
+            continue
+        push(" ".join(token.capitalize() for token in tokens))
+        push("".join(token.capitalize() for token in tokens))
+        push(" ".join(tokens))
+        push("".join(tokens))
+
+    normalized_display = re.sub(r"\s+", " ", channel.display_name).strip()
+    if normalized_display:
+        push(normalized_display)
+        push(normalized_display.replace(" ", ""))
+        push(normalized_display.lower())
+        push(normalized_display.upper())
+
+    number: str | None = None
+    for token in reversed(slug_tokens):
+        if token.isdigit():
+            number = token
+            break
+    if not number and channel.slug in {"beinsports", "bein-sports"}:
+        number = "1"
+
+    slug_compact = channel.slug.replace("-", "")
+    if slug_compact.startswith("beinsports"):
+        roots = [
+            "Bein Sports",
+            "Beinsports",
+            "BeinSports",
+            "BeIn Sports",
+            "BeInSports",
+            "BeIN Sports",
+            "BeINSPORTS",
+        ]
+        for root in roots:
+            push(root)
+            push(root.lower())
+            push(root.replace(" ", ""))
+        if number:
+            for root in roots:
+                push(f"{root} {number}")
+                push(f"{root}{number}")
+                push(f"{root.replace(' ', '')}{number}")
+
+    if number:
+        extras: list[str] = []
+        for base in list(bases):
+            if base.endswith(number):
+                continue
+            extras.extend([f"{base} {number}", f"{base}{number}"])
+        for item in extras:
+            push(item)
+    return bases
+
+
+def generate_display_names(channel: Channel) -> list[str]:
+    seen: set[str] = set()
+    names: list[str] = []
+    for candidate in [channel.display_name, *channel.aliases]:
+        _add_variant(candidate, seen, names)
+    base_pool = _collect_base_names(channel)
+    for base in base_pool:
+        _add_variant(base, seen, names)
+    for base in base_pool:
+        if not base:
+            continue
+        for prefix in PREFIX_VARIANTS:
+            if prefix and base.upper().startswith('TR'):
+                continue
+            prefixed = f"{prefix}{base}" if prefix else base
+            _add_variant(prefixed, seen, names)
+            for suffix in SUFFIX_VARIANTS:
+                _add_variant(f"{prefixed} {suffix}", seen, names)
+                _add_variant(f"{prefixed}{suffix}", seen, names)
+    return names
 
 
 def parse_args() -> argparse.Namespace:
@@ -104,7 +256,8 @@ def parse_channels(path: str | Path) -> List[Channel]:
             continue
         channel_id = parts[1] if len(parts) >= 2 and parts[1] else f"{slug}.tr"
         display_name = parts[2] if len(parts) >= 3 and parts[2] else infer_display_name(slug)
-        channels.append(Channel(url=url, channel_id=channel_id, display_name=display_name, slug=slug))
+        aliases = [alias for alias in parts[3:] if alias]
+        channels.append(Channel(url=url, channel_id=channel_id, display_name=display_name, slug=slug, aliases=aliases))
     return channels
 
 
@@ -233,8 +386,9 @@ def to_xmltv(channels: Sequence[Channel], programmes: Sequence[Programme]) -> st
     })
     for channel in channels:
         channel_el = SubElement(tv, "channel", attrib={"id": channel.channel_id})
-        display = SubElement(channel_el, "display-name")
-        display.text = channel.display_name
+        for display_name in generate_display_names(channel):
+            display = SubElement(channel_el, "display-name")
+            display.text = display_name
 
     for programme in sorted(programmes, key=lambda item: item.start):
         attrs = {
