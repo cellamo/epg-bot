@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
 from typing import List, Sequence
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urlunparse
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 import requests
@@ -70,6 +70,7 @@ class Channel:
     display_name: str
     slug: str
     aliases: List[str]
+    day_override: str | None
 
 
 @dataclass
@@ -250,23 +251,44 @@ def parse_channels(path: str | Path) -> List[Channel]:
             continue
         parts = [p.strip() for p in stripped.split("|")]
         url = parts[0]
-        slug = extract_slug(url)
+        slug, day_override = extract_slug_and_day(url)
         if not slug:
             logging.warning("Unable to determine slug from %s; skipping", url)
             continue
         channel_id = parts[1] if len(parts) >= 2 and parts[1] else f"{slug}.tr"
         display_name = parts[2] if len(parts) >= 3 and parts[2] else infer_display_name(slug)
         aliases = [alias for alias in parts[3:] if alias]
-        channels.append(Channel(url=url, channel_id=channel_id, display_name=display_name, slug=slug, aliases=aliases))
+        channels.append(Channel(url=url, channel_id=channel_id, display_name=display_name, slug=slug, aliases=aliases, day_override=day_override))
     return channels
 
 
-def extract_slug(url: str) -> str | None:
+def extract_slug_and_day(url: str) -> tuple[str | None, str | None]:
     path = urlparse(url).path
     segments = [segment for segment in path.split("/") if segment]
     if len(segments) < 2:
-        return None
-    return segments[-2]
+        return None, None
+    slug = segments[-2]
+    day = segments[-1]
+    if day not in DAY_SLUGS:
+        day = None
+    return slug, day
+
+
+def adjust_url_for_day(url: str, day_override: str | None, now: datetime) -> str:
+    slug, current_day = extract_slug_and_day(url)
+    target_day = day_override or slug_for_today(now)
+    if not slug or not target_day:
+        return url
+    parsed = urlparse(url)
+    segments = [segment for segment in parsed.path.split('/') if segment]
+    if not segments:
+        return url
+    if segments[-1] in DAY_SLUGS:
+        segments[-1] = target_day
+    else:
+        segments.append(target_day)
+    new_path = '/' + '/'.join(segments)
+    return urlunparse((parsed.scheme, parsed.netloc, new_path, parsed.params, parsed.query, parsed.fragment))
 
 
 def infer_display_name(slug: str) -> str:
@@ -331,15 +353,24 @@ def parse_schedule(html_text: str) -> List[tuple[str, str]]:
     return deduped
 
 
-def determine_schedule_date(slug: str, html_text: str, now: datetime) -> date:
+def determine_schedule_date(day_slug: str | None, html_text: str, now: datetime) -> date:
     parsed = parse_date_from_html(html_text)
     if parsed:
         return parsed
-    weekday = DAY_SLUGS.get(slug.lower())
-    if weekday is None:
-        return now.date()
-    delta = (weekday - now.weekday()) % 7
-    return (now + timedelta(days=delta)).date()
+    if day_slug:
+        weekday = DAY_SLUGS.get(day_slug.lower())
+        if weekday is not None:
+            delta = (weekday - now.weekday()) % 7
+            return (now + timedelta(days=delta)).date()
+    return now.date()
+
+
+def slug_for_today(now: datetime) -> str | None:
+    today_weekday = now.weekday()
+    for key, value in DAY_SLUGS.items():
+        if value == today_weekday:
+            return key
+    return None
 
 
 def parse_date_from_html(html_text: str) -> date | None:
@@ -431,17 +462,24 @@ def main() -> None:
     included_channels: List[Channel] = []
 
     for channel in channels:
-        logging.info("Fetching %s", channel.url)
+        fetch_url = adjust_url_for_day(channel.url, channel.day_override, now)
+        if fetch_url != channel.url:
+            logging.info("Fetching %s (source %s)", fetch_url, channel.url)
+        else:
+            logging.info("Fetching %s", fetch_url)
         try:
-            html_text = fetch_html(channel.url, session, timeout=args.timeout)
+            html_text = fetch_html(fetch_url, session, timeout=args.timeout)
         except requests.RequestException as exc:
-            logging.error("Failed to fetch %s: %s", channel.url, exc)
+            logging.error("Failed to fetch %s: %s", fetch_url, exc)
             continue
 
         schedule_items = parse_schedule(html_text)
         if not schedule_items:
             logging.warning("No schedule entries found for %s", channel.channel_id)
-        schedule_date = determine_schedule_date(channel.slug, html_text, now)
+        _, day_slug = extract_slug_and_day(fetch_url)
+        if not day_slug:
+            day_slug = channel.day_override or slug_for_today(now)
+        schedule_date = determine_schedule_date(day_slug, html_text, now)
         programmes = build_programmes(channel.channel_id, schedule_date, schedule_items)
         all_programmes.extend(programmes)
         included_channels.append(channel)
