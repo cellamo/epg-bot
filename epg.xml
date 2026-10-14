@@ -30522,14 +30522,11 @@
   <programme start="20261015070000 +0300" stop="20261015080000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Premier League Maç Özetleri</title>
   </programme>
-  <programme start="20261015074500 +0300" stop="20261015080000 +0300" channel="beinsports-2.tr">
-    <title lang="tr">1 Yıldız 10 Gol</title>
-  </programme>
-  <programme start="20261015080000 +0300" stop="20261015094500 +0300" channel="beinsports-2.tr">
-    <title lang="tr">Pendikspor - Vanspor FK</title>
-  </programme>
   <programme start="20261015080000 +0300" stop="20261015090000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Muhabir Masası</title>
+  </programme>
+  <programme start="20261015083000 +0300" stop="20261015102000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Batman P. - İstanbulspor</title>
   </programme>
   <programme start="20261015084500 +0300" stop="20261015103000 +0300" channel="beinsports-3.tr">
     <title lang="tr">Arsenal - Leeds</title>
@@ -30543,14 +30540,11 @@
   <programme start="20261015094500 +0300" stop="20261015100000 +0300" channel="beinsports.tr">
     <title lang="tr">Süper Lig Haftanın Golleri</title>
   </programme>
-  <programme start="20261015094500 +0300" stop="20261015100000 +0300" channel="beinsports-2.tr">
-    <title lang="tr">1 Yıldız 10 Gol</title>
-  </programme>
   <programme start="20261015100000 +0300" stop="20261015114500 +0300" channel="beinsports.tr">
     <title lang="tr">Gençlerbirliği - Amedspor</title>
   </programme>
-  <programme start="20261015100000 +0300" stop="20261015114500 +0300" channel="beinsports-2.tr">
-    <title lang="tr">Batman P. - İstanbulspor</title>
+  <programme start="20261015102000 +0300" stop="20261015120000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Ümraniyespor - Boluspor</title>
   </programme>
   <programme start="20261015103000 +0300" stop="20261015121500 +0300" channel="beinsports-3.tr">
     <title lang="tr">Chelsea - Bournemouth</title>
@@ -30567,11 +30561,8 @@
   <programme start="20261015114500 +0300" stop="20261015133000 +0300" channel="beinsports.tr">
     <title lang="tr">Süper Lig Haftanın Golleri</title>
   </programme>
-  <programme start="20261015114500 +0300" stop="20261015120000 +0300" channel="beinsports-2.tr">
-    <title lang="tr">1 Yıldız 10 Gol</title>
-  </programme>
   <programme start="20261015120000 +0300" stop="20261015134500 +0300" channel="beinsports-2.tr">
-    <title lang="tr">Ümraniyespor - Boluspor</title>
+    <title lang="tr">Antalyaspor - Kayserispor</title>
   </programme>
   <programme start="20261015120000 +0300" stop="20261015130000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Süper Lig Maç Özetleri</title>
@@ -30588,14 +30579,11 @@
   <programme start="20261015133000 +0300" stop="20261015140000 +0300" channel="beinsports.tr">
     <title lang="tr">Süper Lig Raporu</title>
   </programme>
-  <programme start="20261015134500 +0300" stop="20261015140000 +0300" channel="beinsports-2.tr">
-    <title lang="tr">1 Yıldız 10 Gol</title>
+  <programme start="20261015134500 +0300" stop="20261015153000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">A. Keçiörengücü - Igdır FK</title>
   </programme>
   <programme start="20261015140000 +0300" stop="20261015150000 +0300" channel="beinsports.tr">
     <title lang="tr">Muhabir Masası</title>
-  </programme>
-  <programme start="20261015140000 +0300" stop="20261015154500 +0300" channel="beinsports-2.tr">
-    <title lang="tr">Antalyaspor - Kayserispor</title>
   </programme>
   <programme start="20261015140000 +0300" stop="20261015154500 +0300" channel="beinsports-3.tr">
     <title lang="tr">Sunderland - Brighton</title>
@@ -30612,8 +30600,8 @@
   <programme start="20261015153000 +0300" stop="20261015160000 +0300" channel="beinsports.tr">
     <title lang="tr">TFF 1.Lig Maç Özetleri</title>
   </programme>
-  <programme start="20261015154500 +0300" stop="20261015170000 +0300" channel="beinsports-2.tr">
-    <title lang="tr">1 Yıldız 10 Gol</title>
+  <programme start="20261015153000 +0300" stop="20261015160000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Süper Lig Raporu</title>
   </programme>
   <programme start="20261015154500 +0300" stop="20261015173000 +0300" channel="beinsports-3.tr">
     <title lang="tr">Ipswich - Fulham</title>
@@ -30624,10 +30612,16 @@
   <programme start="20261015160000 +0300" stop="20261015174500 +0300" channel="beinsports.tr">
     <title lang="tr">Samsunspor - Trabzonspor</title>
   </programme>
+  <programme start="20261015160000 +0300" stop="20261015164000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">TFF 1. Lig Maç Özetleri</title>
+  </programme>
+  <programme start="20261015164000 +0300" stop="20261015170000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Maç Başlıyor</title>
+  </programme>
   <programme start="20261015164500 +0300" stop="20261015170000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Portekiz Ligi Haftanın Golleri</title>
   </programme>
-  <programme start="20261015170000 +0300" stop="20261015200000 +0300" channel="beinsports-2.tr">
+  <programme start="20261015170000 +0300" stop="20261015190000 +0300" channel="beinsports-2.tr">
     <title lang="tr">Mardin 1969 - F. Karagümrük</title>
   </programme>
   <programme start="20261015170000 +0300" stop="20261015180000 +0300" channel="bein-sports-haber.tr">
@@ -30651,6 +30645,9 @@
   <programme start="20261015190000 +0300" stop="20261015200000 +0300" channel="beinsports.tr">
     <title lang="tr">Gamer</title>
   </programme>
+  <programme start="20261015190000 +0300" stop="20261015194000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Maç Sonu</title>
+  </programme>
   <programme start="20261015190000 +0300" stop="20261015200000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">BSL Haftanın Özetleri</title>
   </programme>
@@ -30660,10 +30657,13 @@
   <programme start="20261015191500 +0300" stop="20261015210000 +0300" channel="beinsports-4.tr">
     <title lang="tr">Lens - Lyon</title>
   </programme>
+  <programme start="20261015194000 +0300" stop="20261015200000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Maç Başlıyor</title>
+  </programme>
   <programme start="20261015200000 +0300" stop="20261015204500 +0300" channel="beinsports.tr">
     <title lang="tr">Trabzonspor - Beşiktaş</title>
   </programme>
-  <programme start="20261015200000 +0300" stop="20261015210000 +0300" channel="beinsports-2.tr">
+  <programme start="20261015200000 +0300" stop="20261015220000 +0300" channel="beinsports-2.tr">
     <title lang="tr">Muğlaspor - Bursaspor</title>
   </programme>
   <programme start="20261015200000 +0300" stop="20261015223000 +0300" channel="bein-sports-haber.tr">
@@ -30684,8 +30684,14 @@
   <programme start="20261015220000 +0300" stop="20261015223000 +0300" channel="beinsports.tr">
     <title lang="tr">Fenerbahçe - Alanyaspor</title>
   </programme>
+  <programme start="20261015220000 +0300" stop="20261015223000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Maç Sonu</title>
+  </programme>
   <programme start="20261015223000 +0300" stop="20261015224500 +0300" channel="beinsports.tr">
     <title lang="tr">Başakşehir - Gaziantep FK</title>
+  </programme>
+  <programme start="20261015223000 +0300" stop="20261015233000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Mardin 1969 - F. Karagümrük</title>
   </programme>
   <programme start="20261015223000 +0300" stop="20261015230000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Ligue 1 Show</title>
