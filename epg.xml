@@ -30595,7 +30595,7 @@
     <title lang="tr">Kasımpaşa - Samsunspor</title>
   </programme>
   <programme start="20261022150000 +0300" stop="20261022164500 +0300" channel="bein-sports-haber.tr">
-    <title lang="tr">Amedspor - T. Konyaspor</title>
+    <title lang="tr">Fenerbahçe - C. Alanyaspor</title>
   </programme>
   <programme start="20261022151500 +0300" stop="20261022170000 +0300" channel="beinsports-2.tr">
     <title lang="tr">Kayserispor - Batman P.</title>
@@ -30621,7 +30621,7 @@
   <programme start="20261022174500 +0300" stop="20261022184500 +0300" channel="beinsports-4.tr">
     <title lang="tr">Troyes - Lens</title>
   </programme>
-  <programme start="20261022180000 +0300" stop="20261022200000 +0300" channel="beinsports.tr">
+  <programme start="20261022180000 +0300" stop="20261022190000 +0300" channel="beinsports.tr">
     <title lang="tr">Süper Lig Maç Özetleri</title>
   </programme>
   <programme start="20261022180000 +0300" stop="20261022194500 +0300" channel="beinsports-3.tr">
@@ -30630,8 +30630,11 @@
   <programme start="20261022180000 +0300" stop="20261022190000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Haber</title>
   </programme>
-  <programme start="20261022184500 +0300" stop="20261022221500 +0300" channel="beinsports-2.tr">
+  <programme start="20261022184500 +0300" stop="20261022203000 +0300" channel="beinsports-2.tr">
     <title lang="tr">İstanbulspor - Antalyaspor</title>
+  </programme>
+  <programme start="20261022190000 +0300" stop="20261022200000 +0300" channel="beinsports.tr">
+    <title lang="tr">Gamer</title>
   </programme>
   <programme start="20261022190000 +0300" stop="20261022200000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">BSL Haftanın Özetleri</title>
@@ -30644,6 +30647,9 @@
   </programme>
   <programme start="20261022200000 +0300" stop="20261022223000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">beIN Akşam</title>
+  </programme>
+  <programme start="20261022203000 +0300" stop="20261022221500 +0300" channel="beinsports-2.tr">
+    <title lang="tr">F.Karagümrük - Keçiörengücü</title>
   </programme>
   <programme start="20261022204500 +0300" stop="20261022210000 +0300" channel="beinsports.tr">
     <title lang="tr">Süper Lig Haftanın Golleri</title>
