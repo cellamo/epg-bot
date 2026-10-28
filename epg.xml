@@ -30510,12 +30510,6 @@
     <display-name>TR : beINSPORTS4K</display-name>
     <display-name>TR : BeInSPORTS4K</display-name>
   </channel>
-  <programme start="20261029000000 +0300" stop="20261029010000 +0300" channel="beinsports.tr">
-    <title lang="tr">Muhabir Masası</title>
-  </programme>
-  <programme start="20261029010000 +0300" stop="20261029020000 +0300" channel="beinsports.tr">
-    <title lang="tr">Taraftar</title>
-  </programme>
   <programme start="20261029051500 +0300" stop="20261029070000 +0300" channel="beinsports-4.tr">
     <title lang="tr">Monaco - Lille</title>
   </programme>
@@ -30612,6 +30606,9 @@
   <programme start="20261029180000 +0300" stop="20261029190000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Haber</title>
   </programme>
+  <programme start="20261029190000 +0300" stop="20261029210000 +0300" channel="beinsports.tr">
+    <title lang="tr">Gamer</title>
+  </programme>
   <programme start="20261029190000 +0300" stop="20261029200000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">beIN Squad</title>
   </programme>
@@ -30626,6 +30623,9 @@
   </programme>
   <programme start="20261029200000 +0300" stop="20261029220000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">beIN Akşam</title>
+  </programme>
+  <programme start="20261029210000 +0300" stop="20261029220000 +0300" channel="beinsports.tr">
+    <title lang="tr">beIN Garaj</title>
   </programme>
   <programme start="20261029210000 +0300" stop="20261029224500 +0300" channel="beinsports-2.tr">
     <title lang="tr">Batman P. - E. Erokspor</title>
