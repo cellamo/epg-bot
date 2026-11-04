@@ -30540,9 +30540,6 @@
   <programme start="20261105090000 +0300" stop="20261105103000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">beIN Sabah</title>
   </programme>
-  <programme start="20261105101500 +0300" stop="20261105120000 +0300" channel="beinsports.tr">
-    <title lang="tr">Amedspor - Eyüpspor</title>
-  </programme>
   <programme start="20261105103000 +0300" stop="20261105121500 +0300" channel="beinsports-2.tr">
     <title lang="tr">F. Karagümrük - Pendikspor</title>
   </programme>
@@ -30558,9 +30555,6 @@
   <programme start="20261105110000 +0300" stop="20261105120000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">beIN Manşet</title>
   </programme>
-  <programme start="20261105120000 +0300" stop="20261105123000 +0300" channel="beinsports.tr">
-    <title lang="tr">Süper Lig Raporu</title>
-  </programme>
   <programme start="20261105120000 +0300" stop="20261105130000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Süper Lig Maç Özetleri</title>
   </programme>
@@ -30573,17 +30567,8 @@
   <programme start="20261105121500 +0300" stop="20261105140000 +0300" channel="beinsports-4.tr">
     <title lang="tr">Le Havre - PSG</title>
   </programme>
-  <programme start="20261105123000 +0300" stop="20261105130000 +0300" channel="beinsports.tr">
-    <title lang="tr">Trio</title>
-  </programme>
-  <programme start="20261105130000 +0300" stop="20261105140000 +0300" channel="beinsports.tr">
-    <title lang="tr">Muhabir Masası</title>
-  </programme>
   <programme start="20261105130000 +0300" stop="20261105150000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Gün Ortası</title>
-  </programme>
-  <programme start="20261105140000 +0300" stop="20261105143000 +0300" channel="beinsports.tr">
-    <title lang="tr">Taraftar</title>
   </programme>
   <programme start="20261105140000 +0300" stop="20261105154500 +0300" channel="beinsports-2.tr">
     <title lang="tr">Manisa FK - Batman P.</title>
@@ -30593,9 +30578,6 @@
   </programme>
   <programme start="20261105140000 +0300" stop="20261105154500 +0300" channel="beinsports-4.tr">
     <title lang="tr">Nice - Rennes</title>
-  </programme>
-  <programme start="20261105143000 +0300" stop="20261105161500 +0300" channel="beinsports.tr">
-    <title lang="tr">Başakşehir FK - Samsunspor</title>
   </programme>
   <programme start="20261105150000 +0300" stop="20261105164500 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Kasımpaşa - Beşiktaş</title>
@@ -30608,9 +30590,6 @@
   </programme>
   <programme start="20261105154500 +0300" stop="20261105173000 +0300" channel="beinsports-4.tr">
     <title lang="tr">Lille - Lens</title>
-  </programme>
-  <programme start="20261105161500 +0300" stop="20261105180000 +0300" channel="beinsports.tr">
-    <title lang="tr">Fenerbahçe - Göztepe</title>
   </programme>
   <programme start="20261105164500 +0300" stop="20261105170000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Portekiz Ligi Haftanın Golleri</title>
@@ -30630,14 +30609,8 @@
   <programme start="20261105173000 +0300" stop="20261105180000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Basketbol Süper Ligi Raporu</title>
   </programme>
-  <programme start="20261105180000 +0300" stop="20261105190000 +0300" channel="beinsports.tr">
-    <title lang="tr">Süper Lig Maç Özetleri</title>
-  </programme>
   <programme start="20261105180000 +0300" stop="20261105190000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Haber</title>
-  </programme>
-  <programme start="20261105190000 +0300" stop="20261105200000 +0300" channel="beinsports.tr">
-    <title lang="tr">Gamer</title>
   </programme>
   <programme start="20261105190000 +0300" stop="20261105200000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">BSL Haftanın Özetleri</title>
@@ -30651,17 +30624,8 @@
   <programme start="20261105191500 +0300" stop="20261105210000 +0300" channel="beinsports-4.tr">
     <title lang="tr">Strasbourg - Auxerre</title>
   </programme>
-  <programme start="20261105200000 +0300" stop="20261105203000 +0300" channel="beinsports.tr">
-    <title lang="tr">Süper Lig Raporu</title>
-  </programme>
   <programme start="20261105200000 +0300" stop="20261105220000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">beIN Akşam</title>
-  </programme>
-  <programme start="20261105203000 +0300" stop="20261105210000 +0300" channel="beinsports.tr">
-    <title lang="tr">Samsunspor - Konyaspor</title>
-  </programme>
-  <programme start="20261105210000 +0300" stop="20261105220000 +0300" channel="beinsports.tr">
-    <title lang="tr">beIN Garaj</title>
   </programme>
   <programme start="20261105210000 +0300" stop="20261105224500 +0300" channel="beinsports-2.tr">
     <title lang="tr">Bodrum FK - Ümraniyespor</title>
@@ -30672,17 +30636,11 @@
   <programme start="20261105210000 +0300" stop="20261105224500 +0300" channel="beinsports-4.tr">
     <title lang="tr">Paris FC - Monaco</title>
   </programme>
-  <programme start="20261105220000 +0300" stop="20261105223000 +0300" channel="beinsports.tr">
-    <title lang="tr">Alanyaspor - Trabzonspor</title>
-  </programme>
   <programme start="20261105220000 +0300" stop="20261105221500 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Keşfet</title>
   </programme>
   <programme start="20261105221500 +0300" stop="20261105223000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Premier League Golleri</title>
-  </programme>
-  <programme start="20261105223000 +0300" stop="20261105230000 +0300" channel="beinsports.tr">
-    <title lang="tr">Beşiktaş - Gençlerbirliği</title>
   </programme>
   <programme start="20261105223000 +0300" stop="20261105233000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Haber</title>
@@ -30695,12 +30653,6 @@
   </programme>
   <programme start="20261105224500 +0300" stop="20261105233000 +0300" channel="beinsports-4.tr">
     <title lang="tr">Portekiz Ligi Maç Özetleri</title>
-  </programme>
-  <programme start="20261105230000 +0300" stop="20261105233000 +0300" channel="beinsports.tr">
-    <title lang="tr">Gaziantep FK - Kasımpaşa</title>
-  </programme>
-  <programme start="20261105233000 +0300" stop="20261106003000 +0300" channel="beinsports.tr">
-    <title lang="tr">Göztepe - Başakşehir</title>
   </programme>
   <programme start="20261105233000 +0300" stop="20261106003000 +0300" channel="beinsports-4.tr">
     <title lang="tr">Ligue 1 Maç Özetleri</title>
