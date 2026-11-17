@@ -30513,14 +30513,23 @@
   <programme start="20261119051500 +0300" stop="20261119071500 +0300" channel="beinsports-4.tr">
     <title lang="tr">Auxerre - Angers</title>
   </programme>
+  <programme start="20261119070000 +0300" stop="20261119084500 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Antalyaspor - Pendikspor</title>
+  </programme>
   <programme start="20261119070000 +0300" stop="20261119084500 +0300" channel="beinsports-3.tr">
     <title lang="tr">Tottenham - Newcastle</title>
   </programme>
   <programme start="20261119071500 +0300" stop="20261119090000 +0300" channel="beinsports-4.tr">
     <title lang="tr">Brest - Toulouse</title>
   </programme>
+  <programme start="20261119084500 +0300" stop="20261119103000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Bandırmaspor - A. Keçiörengücü</title>
+  </programme>
   <programme start="20261119084500 +0300" stop="20261119103000 +0300" channel="beinsports-3.tr">
     <title lang="tr">Leeds - Brentford</title>
+  </programme>
+  <programme start="20261119090000 +0300" stop="20261119104500 +0300" channel="beinsports.tr">
+    <title lang="tr">Başakşehir FK - Kasımpaşa</title>
   </programme>
   <programme start="20261119090000 +0300" stop="20261119104500 +0300" channel="beinsports-4.tr">
     <title lang="tr">Lorient - Troyes</title>
@@ -30528,8 +30537,14 @@
   <programme start="20261119090000 +0300" stop="20261119110000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">beIN Sabah</title>
   </programme>
+  <programme start="20261119103000 +0300" stop="20261119121500 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Boluspor - Mardin 1969</title>
+  </programme>
   <programme start="20261119103000 +0300" stop="20261119121500 +0300" channel="beinsports-3.tr">
     <title lang="tr">Chelsea - Brighton</title>
+  </programme>
+  <programme start="20261119104500 +0300" stop="20261119130000 +0300" channel="beinsports.tr">
+    <title lang="tr">Gençlerbirliği - Erzurumspor</title>
   </programme>
   <programme start="20261119104500 +0300" stop="20261119123000 +0300" channel="beinsports-4.tr">
     <title lang="tr">Paris FC - Nice</title>
@@ -30540,14 +30555,26 @@
   <programme start="20261119120000 +0300" stop="20261119130000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Süper Lig Maç Özetleri</title>
   </programme>
+  <programme start="20261119121500 +0300" stop="20261119140000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Sarıyer - Batman P.</title>
+  </programme>
   <programme start="20261119121500 +0300" stop="20261119140000 +0300" channel="beinsports-3.tr">
     <title lang="tr">Sunderland - Fulham</title>
   </programme>
   <programme start="20261119123000 +0300" stop="20261119143000 +0300" channel="beinsports-4.tr">
     <title lang="tr">Rennes - Le Mans</title>
   </programme>
+  <programme start="20261119130000 +0300" stop="20261119140000 +0300" channel="beinsports.tr">
+    <title lang="tr">Muhabir Masası</title>
+  </programme>
   <programme start="20261119130000 +0300" stop="20261119143000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Gün Ortası</title>
+  </programme>
+  <programme start="20261119140000 +0300" stop="20261119150000 +0300" channel="beinsports.tr">
+    <title lang="tr">Gamer</title>
+  </programme>
+  <programme start="20261119140000 +0300" stop="20261119154500 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Vanspor FK - İstanbulspor</title>
   </programme>
   <programme start="20261119140000 +0300" stop="20261119154500 +0300" channel="beinsports-3.tr">
     <title lang="tr">Man Utd - Ipswich</title>
@@ -30561,8 +30588,14 @@
   <programme start="20261119144500 +0300" stop="20261119150000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Ligue 1 Haftanın Golleri</title>
   </programme>
+  <programme start="20261119150000 +0300" stop="20261119164500 +0300" channel="beinsports.tr">
+    <title lang="tr">Samsunspor - Fenerbahçe</title>
+  </programme>
   <programme start="20261119150000 +0300" stop="20261119170000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">BSL Maç Özetleri</title>
+  </programme>
+  <programme start="20261119154500 +0300" stop="20261119173000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Sivasspor - Manisa FK</title>
   </programme>
   <programme start="20261119154500 +0300" stop="20261119173000 +0300" channel="beinsports-3.tr">
     <title lang="tr">Aston Villa - Arsenal</title>
@@ -30570,8 +30603,14 @@
   <programme start="20261119161500 +0300" stop="20261119180000 +0300" channel="beinsports-4.tr">
     <title lang="tr">Lille - PSG</title>
   </programme>
+  <programme start="20261119164500 +0300" stop="20261119190000 +0300" channel="beinsports.tr">
+    <title lang="tr">Amedspor - Trabzonspor</title>
+  </programme>
   <programme start="20261119170000 +0300" stop="20261119180000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Süper Lig Maç Özetleri</title>
+  </programme>
+  <programme start="20261119173000 +0300" stop="20261119191500 +0300" channel="beinsports-2.tr">
+    <title lang="tr">F. Karagümrük - Bursaspor</title>
   </programme>
   <programme start="20261119173000 +0300" stop="20261119191500 +0300" channel="beinsports-3.tr">
     <title lang="tr">C. Palace - Man City</title>
@@ -30585,11 +30624,26 @@
   <programme start="20261119183000 +0300" stop="20261119220000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Premier League Golleri</title>
   </programme>
+  <programme start="20261119190000 +0300" stop="20261119200000 +0300" channel="beinsports.tr">
+    <title lang="tr">Taraftar</title>
+  </programme>
+  <programme start="20261119191500 +0300" stop="20261119210000 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Ümraniyespor - E. Erokspor</title>
+  </programme>
   <programme start="20261119191500 +0300" stop="20261119210000 +0300" channel="beinsports-3.tr">
     <title lang="tr">Liverpool - Nott'm Forest</title>
   </programme>
   <programme start="20261119194500 +0300" stop="20261119213000 +0300" channel="beinsports-4.tr">
     <title lang="tr">Lyon - Le Havre</title>
+  </programme>
+  <programme start="20261119200000 +0300" stop="20261119210000 +0300" channel="beinsports.tr">
+    <title lang="tr">Süper Lig Maç Özetleri</title>
+  </programme>
+  <programme start="20261119210000 +0300" stop="20261119220000 +0300" channel="beinsports.tr">
+    <title lang="tr">beIN Garaj</title>
+  </programme>
+  <programme start="20261119210000 +0300" stop="20261119224500 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Igdır FK - Kayserispor</title>
   </programme>
   <programme start="20261119210000 +0300" stop="20261119224500 +0300" channel="beinsports-3.tr">
     <title lang="tr">Coventry - Hull City</title>
@@ -30597,8 +30651,14 @@
   <programme start="20261119213000 +0300" stop="20261119233000 +0300" channel="beinsports-4.tr">
     <title lang="tr">Auxerre - Angers</title>
   </programme>
+  <programme start="20261119220000 +0300" stop="20261119230000 +0300" channel="beinsports.tr">
+    <title lang="tr">Beşiktaş - A. Çorum FK</title>
+  </programme>
   <programme start="20261119220000 +0300" stop="20261119230000 +0300" channel="bein-sports-haber.tr">
     <title lang="tr">Keşfet</title>
+  </programme>
+  <programme start="20261119224500 +0300" stop="20261119234500 +0300" channel="beinsports-2.tr">
+    <title lang="tr">Bodrum FK - Muğlaspor</title>
   </programme>
   <programme start="20261119224500 +0300" stop="20261119230000 +0300" channel="beinsports-3.tr">
     <title lang="tr">Premier League National Pride</title>
